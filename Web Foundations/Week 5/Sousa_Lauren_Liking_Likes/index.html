@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="navigation">
+        <h2>Network</h2>
+    </div>
+    <h1>Your Feed</h1>
+    <div class="container">
+        <div class="profileArea">
+            <div class="profile">
+                <img src="assets/user-circle.png" alt="Profile Picture">
+                <p><a href="#">Add an Avatar</a></p>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div class="postArea">
+            <div class="post">
+                <div class="postHeader">
+                    <h2>Neil M</h2>
+                    <div class="likeFunctions">
+                        <span id="neilPost">4 Like(s)</span>
+                        <button class="like" onclick="neilLike()">Like</button>
+                    </div>
+                </div>
+                <p class="postContents">I just set up this new Discord bot, let me know what you all think. <a href="#">Link</a></p>
+            </div>
+            <div class="post">
+                <div class="postHeader">
+                    <h2>Nichole K</h2>
+                    <div class="likeFunctions">
+                        <span id="nicholePost">7 Like(s)</span>
+                        <button class="like" onclick="nicholeLike()">Like</button>
+                    </div>
+                </div>
+                <p class="postContents">Just finished my <a href="#">next comic,</a> check it out!</p>
+            </div>
+            <div class="post">
+                <div class="postHeader">
+                    <h2>Jim R</h2>
+                    <div class="likeFunctions">
+                        <span id="jimPost">3 Like(s)</span>
+                        <button class="like" onclick="jimLike()">Like</button>
+                    </div>
+                </div>
+                <p class="postContents">I can't stop listening to the <a href="#">new album.</a></br>Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

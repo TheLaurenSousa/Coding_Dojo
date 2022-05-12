@@ -1,0 +1,29 @@
+.search, .plus, .createAccount {
+    display:block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+.search {
+    width: 150px;
+    color: #00d1b2;
+    border: 1px solid #00d1b2;
+    border-radius: 20px;
+}
+
+.plus {
+    width: 40px;
+    color: #ffffff;
+    background-color: #00d1b2;
+    border-radius: 50%;
+    border: none;
+}
+
+.createAccount{
+    width: 200px;
+    background-color: #0051ff;
+    color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 1px #000000;
+}

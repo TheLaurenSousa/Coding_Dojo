@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation */
+
+.navigation{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #4b4949;
+    margin: 0 10%;
+}
+.navigation h2{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* Container */
+
+h1{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Profile */
+
+.profileArea{
+    margin: 20px 10px 20px 0;
+    flex: 1;
+}
+
+.profile{
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile img{
+    height: 70px;
+    margin: 20px 0;
+}
+
+.profile p,
+.profile h2{
+    margin-bottom: 20px;
+}
+
+/* Posts */
+
+.postArea{
+    margin: 20px 0 20px 10px;
+    flex: 3;
+}
+
+.post{
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postHeader{
+    display: flex;
+    padding: 10px 50px;
+}
+
+.postHeader h2{
+    flex: 2;
+}
+
+.likeFunctions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.like{
+    background-color: #d7ee09;
+    padding: 5px 20px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 1px #000000;
+}
+
+.postContents{
+    text-align: center;
+}

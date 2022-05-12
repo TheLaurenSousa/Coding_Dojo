@@ -1,0 +1,124 @@
+.invert{
+    filter: invert(1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation */
+
+.navigation{
+    margin: 0 auto;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4444fd;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.navigation ul{
+    list-style-type: none;
+    font-size: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -100px;
+}
+
+.navigation a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#accountButton{
+    background-color: #d5dbf7;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 1px #000000;
+    width: 100px;
+}
+
+/* Banner */
+
+.banner{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 50px;
+
+}
+
+/* Main body */
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+}
+
+.leftColumn img,
+.rightColumn img{
+    width: 100%;
+}
+
+/* Left Column */
+.leftColumn{
+    flex: 1;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.buttonBox{
+    height: 700px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttonBox h2{
+    margin-top: 10px;
+}
+
+.alterationButton{
+    width: 90%;
+    margin: 60px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Right Column */
+
+.rightColumn{
+    flex: 2;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.textBox{
+    text-align: center;
+}
+
+.textBox h2{
+    margin-bottom: 20px;
+}

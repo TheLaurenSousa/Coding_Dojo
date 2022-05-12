@@ -1,0 +1,107 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Standard square button with appropriate styling */
+.btn{
+    width: 200px;
+    background-color: #0051ff;
+    color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 1px #000000;
+}
+
+/* .row class with appropriate styling */
+.row{
+    display: flex;
+    color: #fff;
+    text-align: center;
+}
+
+/* .col class with flex:1 styling */
+.col {
+    flex:1;
+    background-color: #22b49c;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Standard Navbar with generic styling */
+.nav{
+    background-color: #424242;
+    color: #ffffff;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.nav-links{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* Usercard Styling */
+.usercard{
+    border: 1px solid #000000;
+    margin-bottom: 30px;
+    background-color: #008cff;
+}
+
+.usercard h1, 
+.usercard h2,
+.usercard p {
+    margin: 10px 0px;
+}
+
+.profilePic{
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    padding: 5px;
+    Top: 75px;
+    Left: 30px;
+}
+
+.profileDescription{
+    background-color: #fff;
+    padding-top: 75px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+}
+
+.location{
+    font-size: 20px;
+}
+
+.userIcons{
+    height: 20px;
+}
+
+.userDescription{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

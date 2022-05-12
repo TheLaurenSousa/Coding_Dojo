@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+} 
+
+.navBar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.navLogo{
+    margin-left: 20px;
+}
+
+.navLogo img{
+    width: 50px;
+}
+
+.navLinks{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.atfBanner{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.atfBannerImage{
+    width: 100%;
+}
+
+.homeH1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+}
+
+.contentBlock{
+    display: flex;
+}
+
+.contentBlock1{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
+.contentBlock1 img{
+    width: 100%;
+}
+
+.contentBlock1 p{
+    display: flex;
+    align-self: center;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contentBlock2{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
+.contentBlock2 img{
+    width: 100%;
+}
+
+.contentBlock2 p{
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footerBar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.footerLinks{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerBar a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}

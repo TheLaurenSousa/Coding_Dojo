@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation */
+.navigation{
+    background-color: #424242;
+}
+
+.nav{
+    color: #ffffff;
+    height: 80px;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navTitle{
+    margin-left: 20px;
+}
+
+.navLinks{
+    list-style-type: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLinks a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.button{
+    background-color: #038b8b;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 1px #000000;
+}
+
+/* Everything that's not the Nav and things that are shared */
+
+.primaryContent{
+    display: flex;
+    width: 70%;
+    margin: 0% auto;
+}
+
+.section{
+    border: 1px solid #000000;
+    margin-bottom: 30px;
+}
+
+.header{
+    color: white;
+    padding: 5px 0 5px 10px;
+    background: #424242;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* Profile */
+
+.profile{
+    margin: 20px;
+    flex: 2;
+}
+
+/* User Card */
+
+.usercard{
+    border: 1px solid #000000;
+    margin-bottom: 30px;
+    background-color: #008cff;
+}
+
+.usercard h1, 
+.usercard h2,
+.usercard p {
+    margin: 10px 0px;
+}
+
+.profilePic{
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    padding: 5px;
+    Top: 75px;
+    Left: 30px;
+}
+
+.profileDescription{
+    background-color: #fff;
+    padding-top: 75px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+}
+
+.location{
+    font-size: 20px;
+}
+
+.userIcons{
+    height: 20px;
+}
+
+.userDescription{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Education */
+
+.details{
+    padding: 5px 10px;
+}
+
+.details h2,
+.details p {
+    margin-bottom: 15px;
+}
+
+.date{
+    color: #424242;
+}
+
+/* Connections */
+
+.connections{
+    margin: 20px;
+    flex: 1;
+}
+
+/* Connection Requests */
+
+strong{
+    color: black;
+    background-color: white;
+    padding: 0 10px;
+    margin: 0 30px;
+    border-radius: 12px;
+}
+
+.connectionList{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.requestsToConnect, 
+.requestDecision{
+    display: flex;
+    align-items: center;
+}
+
+.requestsToConnect img,
+.requestDecision img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.buttonRequest{
+    border: none;
+    background-color: #fff;
+}
+
+/* Your Connections */
+
+.sampleConnection{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.sampleConnection img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.viewMore{
+    border-top: 1px solid #000000;
+    padding: 20px;
+}
