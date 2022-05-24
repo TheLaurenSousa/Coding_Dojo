@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Clinks Great Football Simulator (Under Construction)</h1>
+
+        <h2>Please name your team</h2>
+        <label for="name">Team Name:</label>
+        <input type="text" name="name" id="name">
+        <input onclick="generateTeam()" type="submit" value="Submit Team Name">
+        <h3>The team on offense is the
+            <span class="teamName">~placeholder~</span> 
+        </h3>
+        <label for="type">Play Choice:</label>
+        <select name="type" id="type">
+            <option value="run">Run the Ball</option>
+            <option value="pass">Pass the Ball</option>
+            <option value="hailmary">Throw the Ball 70 yards and pray</option>
+        </select>
+        <input onclick="playFootball()" type="submit" value="Hike">
+        <table>
+            <tr>
+                <th>Down</th>
+                <th>To Go</th>
+                <th>Distance to EZ</th>
+            </tr>
+            <tr>
+                <td id="downCounter">First</td>
+                <td ><span id="yardsToGo">10</span> yards</td>
+                <td ><span id="toTheEZ">75</span> yards to the end zone</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Team</th>
+                <th>1st</th>
+                <th>2nd</th>
+                <th>3rd</th>
+                <th>4th</th>
+            </tr>
+            <tr>
+                <td class="teamName">~placeholder~</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Away Team</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

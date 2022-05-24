@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:0px 10%;
+    background-color: blue;
+}
+#container{
+    margin-top: 75px;
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+    height: 560px;
+    padding: 20px;
+}
+h1{
+    width: 500px;
+    margin: 40px auto;
+}
+table{
+    margin: 30px auto;
+    border: 5px solid black;
+    width: 250px;
+}
+tr{
+    width: 200px;
+}
+th, td{
+    width: 30px;
+}
+form{
+    margin: 40px 0px;
+}

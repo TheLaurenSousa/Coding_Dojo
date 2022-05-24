@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="liveScores">
+        <h2>Live Scores</h2>
+        <p>SJC Ninjas - 314<br>NS Pirates - 159</p>
+        <p>CHI Samurai - 0<br>TUL Wizards - 0</p>
+        <p>BOS Hackers - 13<br>TYO Youkai - 37</p>
+        <p>BOI Knights - 5<br>SEA Sea Lions - 11</p>
+    </div>
+    <div class="navigation">
+        <h2 class="siteName">DSNN</h2>
+        <div class="nav">
+            <ul>
+                <li>Football</li>
+                <li>Basketball</li>
+                <li>Baseball</li>
+                <li>Soccer</li>
+                <li>More...</li>
+            </ul>
+            <div class="userIcons">
+                <img src="images/search-light.png" alt="search icon">
+                <img src="images/hamburger-light.png" alt="expander">
+                <img src="images/user-circle-light.png" alt="user icon">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sideBar">
+            <div class="sideCard">
+                <h2>Top Stories</h2>
+                <p>Ninjas up big in 5th</p>
+                <p>Best sports cities</p>
+                <p>Choi joins Hall of Fame</p>
+                <p>Tournament underway</p>
+                <p>Samurai at Wizards...</p>
+            </div>
+            <div class="sideCard">
+                <h3>Customize your DSNN</h3>
+                    <button id="signIn">Sign In</button>
+                    <button>Sign Up</button>
+            </div>
+            <div class="sideCard" id="subscriptionBox">
+                <h3>Never miss a play</h3>
+                <button id="subscribe" onclick="subscribeAccept('#subscriptionBox')">Subscribe</button>
+            </div>
+        </div>
+        <div class="currentGame">
+            <h1><span id="live">• Live</span><span id="headline">Ninjas leading Pirates</span></h1>
+            <div class="scoreBoard">
+                <div class="teamCard">
+                    <img src="images/sjc-ninjas.png" alt="ninja team's logo">
+                    <h3>San Jose</h3>
+                    <h2 id="teamNinja">Ninjas</h2>
+                    <p class="record">(10 W - 3 L)</p>
+                    <span class="currentScore" id="ninjaScore" onclick="ninjaPoint()">314</span>
+                </div>
+                <div class="gameStatus">
+                    <h2>VS</h2>
+                    <p>0:13 remaining</p>
+                    <p>5th period</p>
+                </div>
+                <div class="teamCard">
+                    <img src="images/ns-pirates.png" alt="ninja team's logo">
+                    <h3>Nova Scotia</h3>
+                    <h2 id="teamPirates">Pirates</h2>
+                    <p class="record">(12 W - 2 L)</p>
+                    <span class="currentScore" id="piratesScore" onclick="piratesPoint()">159</span>
+                </div>
+            </div>
+            <p>A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stake... <a href="#">get live updates</a></p>
+        </div>
+    </div>
+</body>
+</html>

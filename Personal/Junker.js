@@ -1,10 +1,18 @@
-var arr = [1, 2, 3, 4, 5];
+// Note: Nothing placed in this doc is important. If it's important, make it a new doc
 
-function doubletrouble(){
-    for (var i=0; i <arr.length; i++){
-        var temp = arr[i]*2;
-        console.log(temp);
-    }
+// var is5even = 5 % 2 == 0;
+// var is500even = 500 % 2 == 0;
+// var is78DivisibleBy3 = 78 % 3 == 0;
+
+// console.log(is5even);
+// console.log(is500even);
+// console.log(is78DivisibleBy3);
+
+var start = 0;
+var end = 10;
+    
+while(start <= end) {
+    console.log("start: " + start + ", end: " + end);
+    start++;
+    end--;
 }
-
-doubletrouble();
