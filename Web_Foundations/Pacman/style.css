@@ -21,40 +21,45 @@ body{
 }
 
 .cherry{
-    background-image: url(images/cherry.png);
+    background-image: url('images/cherry.png');
 }
 
-#redGhost{
-    background-image: url(images/redGhost.gif);
+#ghost1{    /*Red Ghost*/
+    background-image: url('images/redGhost.gif');
 }
 
-#orangeGhost{
-    background-image: url(images/orangeGhost.gif);
+#ghost2{    /*Orange Ghost*/
+    background-image: url('images/orangeGhost.gif');
 }
 
-#pinkGhost{
-    background-image: url(images/pinkGhost.gif);
+#ghost3{ /*Pink Ghost*/
+    background-image: url('images/pinkGhost.gif');
 }
 
 .coin,
 .cherry,
-#redGhost,
-#orangeGhost,
-#pinkGhost{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
+#ghost1,
+#ghost2,
+#ghost3,
 #pacman{
-    background-image: url('images/pacman.gif');
-    transform: rotate(180deg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 40px;
     height: 40px;
+}
+
+#pacman,
+#ghost1,
+#ghost2,
+#ghost3{
     position: absolute;
+    display: none;
+}
+
+#pacman{
+    background-image: url('images/pacman.gif');
+    transform: rotate(180deg);
 }
 
 #scoreboard{
@@ -64,4 +69,9 @@ body{
     border: 1px solid white;
     color: #fff;
     text-align: center;
+    display: none;
+}
+
+#world1{
+    margin: 100px;
 }
