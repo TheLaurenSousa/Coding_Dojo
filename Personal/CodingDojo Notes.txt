@@ -1,7 +1,0 @@
-Words of Affirmation EComm site
-
-Code Review on Thursdays at 4-4:30 PST (7-7:30 EST). Start next week.
-
-VS Code: "Lorem *", where the number after is the number of lines, or "Lorem#" where # is the number of words, for Lorem Ipsum text
-
-
