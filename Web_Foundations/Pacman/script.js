@@ -106,6 +106,7 @@ function displayGhost(){
 var score = 0;
 function playGame(worldInput){
     document.onkeydown = function(e){
+        displayGhost();
         if (e.keyCode == 37 && worldInput[pacman.y][pacman.x-1] !=0){   //Left
                 pacman.x--;
                 document.getElementById('pacman').style.transform = "rotate(0)"; 
@@ -146,7 +147,6 @@ function playGame(worldInput){
         displayWorld(worldInput);
         displayPacman();
         moveGhost(worldInput);
-        displayGhost();
     }
 }
 
